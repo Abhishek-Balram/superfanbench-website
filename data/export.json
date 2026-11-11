@@ -1,0 +1,299 @@
+{
+  "formatVersion": 1,
+  "runId": "20261106-103021-ftw3",
+  "systemPrompt": "Answer the question about the named book, film, or TV series concisely. If you are not sure, give your best guess instead of saying you don't know. Commit to one answer.",
+  "judges": {
+    "gpt-6.1-terra": [
+      {
+        "model": "claude-fable-5-1",
+        "accuracy": 0.9315068493150684,
+        "score": 0.863013698630137,
+        "correct": 68,
+        "incorrect": 5,
+        "declined": 0
+      },
+      {
+        "model": "claude-opus-5",
+        "accuracy": 0.8356164383561644,
+        "score": 0.6712328767123288,
+        "correct": 61,
+        "incorrect": 12,
+        "declined": 0
+      },
+      {
+        "model": "muse-wonder-1.0",
+        "accuracy": 0.821917808219178,
+        "score": 0.6438356164383562,
+        "correct": 60,
+        "incorrect": 13,
+        "declined": 0
+      },
+      {
+        "model": "gemini-4-argon",
+        "accuracy": 0.8082191780821918,
+        "score": 0.6164383561643836,
+        "correct": 59,
+        "incorrect": 14,
+        "declined": 0
+      },
+      {
+        "model": "gemini-3.8-flash",
+        "accuracy": 0.7671232876712328,
+        "score": 0.5342465753424658,
+        "correct": 56,
+        "incorrect": 17,
+        "declined": 0
+      },
+      {
+        "model": "kimi-k3.1-pro",
+        "accuracy": 0.7397260273972602,
+        "score": 0.4794520547945205,
+        "correct": 54,
+        "incorrect": 19,
+        "declined": 0
+      },
+      {
+        "model": "claude-opus-5-5",
+        "accuracy": 0.7397260273972602,
+        "score": 0.4931506849315068,
+        "correct": 54,
+        "incorrect": 18,
+        "declined": 1
+      },
+      {
+        "model": "gpt-6-astra",
+        "accuracy": 0.7397260273972602,
+        "score": 0.4794520547945205,
+        "correct": 54,
+        "incorrect": 19,
+        "declined": 0
+      },
+      {
+        "model": "gpt-6.1-sol",
+        "accuracy": 0.7397260273972602,
+        "score": 0.4794520547945205,
+        "correct": 54,
+        "incorrect": 19,
+        "declined": 0
+      },
+      {
+        "model": "gpt-5.6-sol",
+        "accuracy": 0.7123287671232876,
+        "score": 0.4246575342465753,
+        "correct": 52,
+        "incorrect": 21,
+        "declined": 0
+      },
+      {
+        "model": "gpt-6-sol",
+        "accuracy": 0.6575342465753424,
+        "score": 0.3150684931506849,
+        "correct": 48,
+        "incorrect": 25,
+        "declined": 0
+      },
+      {
+        "model": "gpt-6.1-terra",
+        "accuracy": 0.6438356164383562,
+        "score": 0.2876712328767123,
+        "correct": 47,
+        "incorrect": 26,
+        "declined": 0
+      },
+      {
+        "model": "muse-spark-1.3",
+        "accuracy": 0.6164383561643836,
+        "score": 0.2328767123287671,
+        "correct": 45,
+        "incorrect": 28,
+        "declined": 0
+      },
+      {
+        "model": "gpt-5.6-terra",
+        "accuracy": 0.4794520547945205,
+        "score": -0.0410958904109589,
+        "correct": 35,
+        "incorrect": 38,
+        "declined": 0
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "accuracy": 0.4520547945205479,
+        "score": -0.0821917808219178,
+        "correct": 33,
+        "incorrect": 39,
+        "declined": 1
+      },
+      {
+        "model": "gpt-5.6-luna",
+        "accuracy": 0.3561643835616438,
+        "score": -0.2876712328767123,
+        "correct": 26,
+        "incorrect": 47,
+        "declined": 0
+      },
+      {
+        "model": "gpt-6-luna",
+        "accuracy": 0.3424657534246575,
+        "score": -0.3150684931506849,
+        "correct": 25,
+        "incorrect": 48,
+        "declined": 0
+      },
+      {
+        "model": "claude-haiku-5-5",
+        "accuracy": 0.1095890410958904,
+        "score": -0.7123287671232876,
+        "correct": 8,
+        "incorrect": 60,
+        "declined": 5
+      }
+    ],
+    "gpt-6-luna": [
+      {
+        "model": "claude-fable-5-1",
+        "accuracy": 0.9315068493150684,
+        "score": 0.863013698630137,
+        "correct": 68,
+        "incorrect": 5,
+        "declined": 0
+      },
+      {
+        "model": "claude-opus-5",
+        "accuracy": 0.8356164383561644,
+        "score": 0.6712328767123288,
+        "correct": 61,
+        "incorrect": 12,
+        "declined": 0
+      },
+      {
+        "model": "gemini-4-argon",
+        "accuracy": 0.8356164383561644,
+        "score": 0.6712328767123288,
+        "correct": 61,
+        "incorrect": 12,
+        "declined": 0
+      },
+      {
+        "model": "muse-wonder-1.0",
+        "accuracy": 0.821917808219178,
+        "score": 0.6438356164383562,
+        "correct": 60,
+        "incorrect": 13,
+        "declined": 0
+      },
+      {
+        "model": "claude-opus-5-5",
+        "accuracy": 0.7534246575342466,
+        "score": 0.5205479452054794,
+        "correct": 55,
+        "incorrect": 17,
+        "declined": 1
+      },
+      {
+        "model": "gemini-3.8-flash",
+        "accuracy": 0.7534246575342466,
+        "score": 0.5068493150684932,
+        "correct": 55,
+        "incorrect": 18,
+        "declined": 0
+      },
+      {
+        "model": "kimi-k3.1-pro",
+        "accuracy": 0.7397260273972602,
+        "score": 0.4794520547945205,
+        "correct": 54,
+        "incorrect": 19,
+        "declined": 0
+      },
+      {
+        "model": "gpt-6-astra",
+        "accuracy": 0.7397260273972602,
+        "score": 0.4794520547945205,
+        "correct": 54,
+        "incorrect": 19,
+        "declined": 0
+      },
+      {
+        "model": "gpt-6.1-sol",
+        "accuracy": 0.7397260273972602,
+        "score": 0.4794520547945205,
+        "correct": 54,
+        "incorrect": 19,
+        "declined": 0
+      },
+      {
+        "model": "gpt-5.6-sol",
+        "accuracy": 0.7123287671232876,
+        "score": 0.4246575342465753,
+        "correct": 52,
+        "incorrect": 21,
+        "declined": 0
+      },
+      {
+        "model": "gpt-6-sol",
+        "accuracy": 0.6575342465753424,
+        "score": 0.3150684931506849,
+        "correct": 48,
+        "incorrect": 25,
+        "declined": 0
+      },
+      {
+        "model": "gpt-6.1-terra",
+        "accuracy": 0.6575342465753424,
+        "score": 0.3150684931506849,
+        "correct": 48,
+        "incorrect": 25,
+        "declined": 0
+      },
+      {
+        "model": "muse-spark-1.3",
+        "accuracy": 0.6164383561643836,
+        "score": 0.2328767123287671,
+        "correct": 45,
+        "incorrect": 28,
+        "declined": 0
+      },
+      {
+        "model": "gpt-5.6-terra",
+        "accuracy": 0.4794520547945205,
+        "score": -0.0410958904109589,
+        "correct": 35,
+        "incorrect": 38,
+        "declined": 0
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "accuracy": 0.4383561643835616,
+        "score": -0.1095890410958904,
+        "correct": 32,
+        "incorrect": 40,
+        "declined": 1
+      },
+      {
+        "model": "gpt-5.6-luna",
+        "accuracy": 0.3561643835616438,
+        "score": -0.2876712328767123,
+        "correct": 26,
+        "incorrect": 47,
+        "declined": 0
+      },
+      {
+        "model": "gpt-6-luna",
+        "accuracy": 0.3424657534246575,
+        "score": -0.3150684931506849,
+        "correct": 25,
+        "incorrect": 48,
+        "declined": 0
+      },
+      {
+        "model": "claude-haiku-5-5",
+        "accuracy": 0.1232876712328767,
+        "score": -0.6575342465753424,
+        "correct": 9,
+        "incorrect": 57,
+        "declined": 7
+      }
+    ]
+  }
+}
