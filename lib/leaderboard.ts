@@ -132,6 +132,8 @@ export function parseResults(raw: unknown): Results {
   }
 
   const judgeNames = leaderboards.map((board) => board.judge);
+  const defaultJudge = judgeNames.includes(PREFERRED_JUDGE) ? PREFERRED_JUDGE : judgeNames[0];
+  leaderboards.sort((a, b) => Number(b.judge === defaultJudge) - Number(a.judge === defaultJudge));
   return {
     runId,
     runDate: runDate(runId),
@@ -139,6 +141,6 @@ export function parseResults(raw: unknown): Results {
     questionCount: total,
     modelCount: new Set(allRows.map((row) => row.model)).size,
     leaderboards,
-    defaultJudge: judgeNames.includes(PREFERRED_JUDGE) ? PREFERRED_JUDGE : judgeNames[0],
+    defaultJudge,
   };
 }

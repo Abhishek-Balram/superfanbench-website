@@ -18,7 +18,7 @@ The judge gives every answer one of three outcomes.
 | Incorrect | The answer does not meet the rubric, and the model committed to it. |
 | Declined | The answer does not meet the rubric, and the model said it does not know or refused to answer. |
 
-The system prompt affects how often a model declines. A prompt that asks for a best guess leads to fewer declines than one that allows "I don't know".
+The system prompt tells a model whether to guess or to say "I don't know" when it is not sure. Read the declined counts together with the system prompt of the run.
 
 ## How the numbers are calculated
 
